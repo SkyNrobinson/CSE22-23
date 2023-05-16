@@ -6,7 +6,7 @@ def index():
 	return render_template('index.html')
 
 @app.route('/JackRC')
-def index():
+def JackRC():
 	return render_template('JackRC.html')
 
 
