@@ -6,4 +6,4 @@ def index():
 	return render_template('index.html')
 @app.route('JohnC')
 def hello():
-    return render_template('JohnC.html', JohnC)
+    return render_template('page.html', JohnC)
