@@ -5,6 +5,11 @@ app = Flask(__name__)
 def index():
 	return render_template('index.html')
 
+@app.route('JohnC')
+def JohnC():
+    return render_template('JohnC.html')
+
+
 @app.route('/skylee')
 def skylee():
     return render_template('skylee.html')
@@ -24,5 +29,3 @@ def JohnN():
 @app.route('/Maddix')
 def Maddix():
 	return render_template('maddix.html')
-
-
