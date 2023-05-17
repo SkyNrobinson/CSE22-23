@@ -11,7 +11,7 @@ def JackRC():
 	return render_template('JackRC.html')
 
 
-@app.route('JohnC')
+@app.route('/JohnC')
 def JohnC():
     return render_template('JohnC.html')
 
