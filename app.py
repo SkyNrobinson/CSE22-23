@@ -38,6 +38,6 @@ def JohnN():
 def Maddix():
 	return render_template('maddix.html')
 
-@app.route'(/Jakobi')
+@app.route('/Jakobi')
 def Jakobi(): 
 	return render_template('jakobi.html')
