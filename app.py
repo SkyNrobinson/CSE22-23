@@ -18,7 +18,7 @@ def JohnC():
 
 @app.route('/skylee')
 def skylee():
-    return render_template('skylee.html')
+	return render_template('skylee.html')
 
 
 @app.route('/Paul')
@@ -27,11 +27,15 @@ def Paul():
 
 @app.route('/Jacob')
 def Jacob():
-    return render_template('Jacob.html')
+	return render_template('Jacob.html')
 
 @app.route('/JohnN')
 def JohnN():
-    return render_template('JohnN.html')
+    	return render_template('JohnN.html')
+
+@app.route('/Spencer')
+def Spencer():
+    	return render_template('Spencer.html')
 
 
 @app.route('/Maddix')
